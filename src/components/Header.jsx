@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FiHeart, FiMenu, FiSearch, FiShoppingCart } from 'react-icons/fi';
+import { FiHeart, FiMenu, FiSearch, FiShoppingCart, FiUser } from 'react-icons/fi';
 
 const Header = () => {
    const [isScrolled, setIsScrolled] = useState(false);
@@ -106,10 +106,44 @@ const Header = () => {
      </div>
 
      <div className='bg-pink-950 '>
-        <div className='max-w-7xl mx-auto px-4'></div>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <nav className='hidden md:flex justify-center py-3 '>
+           <ul className='flex flex-wrap gap-x-6 text-sm font-medium text-white'>
+            {navItems.map((item) =>(
+              <li key={item.id}>
+                <a href={item.link} className='hover:text-pink-300 transition-colors'>
+                  {item.name}
+                </a>
+              </li>
+            ))
+
+            }
+
+           </ul>
+          </nav>
+
+          {isMobileMenuOpen && (
+              <div className='md:hidden mt-2 bg-white rounded-lg shadow-md p-4 space-y-3 text-amber-950 text-center'>
+               {navItems.map((item) =>(
+          
+                <a
+                 key={item.id} 
+                href={item.link} 
+                className='block hover:text-amber-600 text-sm font-medium'>
+                  {item.name}
+                </a>
+             
+            ))
+
+            }
+              
+                </div>
+          )}
+        </div>
      </div>
    </header>
-  )
-}
+  );
+};
 
 export default Header
+
