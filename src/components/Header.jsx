@@ -68,7 +68,7 @@ const Header = () => {
                  aria-label='Wishlist'
                  >
                     <FiHeart size={20} />
-                    <span className='abosolute -top-1 -right-1 bg-pink-500 
+                    <span className='absolute -top-1 -right-1 bg-pink-500 
                     text-white text-xs rounded-full h-5 w-5 flex items-center justify-center
                     '>
                         3
@@ -83,7 +83,7 @@ const Header = () => {
                  aria-label='Wishlist'
                  >
                     <FiShoppingCart size={20} />
-                    <span className='abosolute -top-1 -right-1 bg-pink-500 
+                    <span className='absolute -top-1 -right-1 bg-pink-500 
                     text-white text-xs rounded-full h-5 w-5 flex items-center justify-center
                     '>
                         5
@@ -146,4 +146,8 @@ const Header = () => {
 };
 
 export default Header
+
+
+
+//14
 
