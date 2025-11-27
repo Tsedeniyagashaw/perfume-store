@@ -22,7 +22,7 @@ const About = () => {
               <div className="absolute bottom-0 left-0 text-white">
                 <h3 className="text-2xl font-bold">Since 1996</h3>
                 <p className="mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.{" "}
+                  Discover the art of fragrance with our exclusive collection of premium perfumes.
                 </p>
               </div>
             </div>
@@ -31,7 +31,9 @@ const About = () => {
           <div className="lg:w-1/2 flex flex-col justify-center">
             <h2 className="text-4xl font-bold text-amber-900 mb-6">About Us</h2>
             <p className="text-lg text-gray-600 mb-4 ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               At shopease, we believe in the power of scent to evoke emotions and memories. 
+               Since 1996, we've been curating an exquisite collection of luxury perfumes,
+                crafted from the finest ingredients, to help you express your unique style and personality.
             </p>
             <div className="grid grid-cols-2 gap-4 mt-4">
 
