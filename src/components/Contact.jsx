@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaEnvelope,  FaFacebookF, FaInstagram, FaMapMarkedAlt, FaPhone, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
@@ -10,15 +9,13 @@ const Contact = () => {
             <h1 className='text-4xl font-serif font-bold text-white mb-4'>Contact Us</h1>
             <p className='text-lg text-gray-200 max-w-2xl mx-auto'>
 
-   lets contact
+    Experience luxury at every step.  
+  Get in touch with us for personalized fragrance advice or support with your order.
             </p>
          </div>
         
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 '>
-
-       
-
-         <div className='bg-white p-8 rounded-lg shadow-xl border border-gray-100'>
+<div className='bg-white p-8 rounded-lg shadow-xl border border-gray-100'>
        <h2 className='text-2xl font-serif font-semibold text-gray-900 mb-6'>Send Us a Message</h2>
            <form className='space-y-6' action="">
               <div>
